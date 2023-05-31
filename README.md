@@ -1,4 +1,3 @@
-# WasteBin
 <h1>WasteBin</h1>
 <img src = 'assets/logo.png' alt = 'image' ></img>
 <h1>A Novel and Sustainable way of Managing Waste powered by AI Models  
