@@ -1,0 +1,30 @@
+.blog-post {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.blog-post-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog-post-content {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.blog-post-category {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+.blog-post-date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
