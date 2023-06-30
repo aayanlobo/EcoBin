@@ -1,18 +1,22 @@
 import "./App.css";
+import "./index.css";
 import Dashboard from "./Dashboard_user/Dashboard";
 import Dashboard_admin from "./Dashboard_admin/Dashboard";
 import Dashboard_collector from "./Dashboard_collector/Dashboard";
 import Login from "./FrontPage/Login/login";
 import Home from "./Components/Home";
+import { useEffect } from "react";
 import Credit from "./Dashboard_user/Credit";
 import OrderPlaced from "./Components/OrderPlaced";
 import Announcement from "./Dashboard_user/Announcement";
 import PostBlog from "./Dashboard_admin/PostBlog";
 import BlogSection from "./Dashboard_user/BlogSection";
 // import SignIn from "./FrontPage/SignIn/signIn";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigationType,
+  useLocation, } from "react-router-dom";
 // import { Switch, Route } from "react-router-dom";
 function App() {
+ 
   return (
     <div>
       <Routes>

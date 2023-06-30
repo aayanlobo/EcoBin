@@ -1,13 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&display=swap");
 body {
   margin: 0;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: normal;
 }
+:root {
+  /* fonts */
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}  */
+  --font-sora: Sora;
+  /* font sizes */
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-seagreen: #519259;
+
+  /* Gaps */
+  --gap-52xl: 71px;
+  /* border radiuses */
+  --br-8xl: 27px;
+  --br-3xs: 10px;
+}

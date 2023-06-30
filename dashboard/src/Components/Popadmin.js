@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
+import styles from "./Desktop.module.css";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
 import axios from "axios";
@@ -45,10 +46,10 @@ const Example = () => {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      {/* <Button variant="primary" onClick={handleShow}>
         Admin Board
-      </Button>
-
+      </Button> */}
+      <Button className={styles.signInButton} variant="primary" onClick={handleShow}>Sign In</Button>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Admin Login</Modal.Title>

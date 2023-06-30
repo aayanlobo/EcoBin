@@ -1,0 +1,514 @@
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar{
+  display:none;
+}
+.home {
+  position: relative;
+}
+.navCentre {
+  position: absolute;
+  top: 54px;
+  left: calc(50% - 133px);
+  background-color: #f4f9f4;
+  width: 298px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 1px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.signIn {
+  position: relative;
+  top: 20px;
+  left: 15px;
+  opacity : 50%;
+}
+.component1 {
+  position: absolute;
+  top: 27px;
+  right: 120px;
+  border-radius: 7px;
+  background-color: var(--color-seagreen);
+  width: 120px;
+  height: 52px;
+  font-size: var(--font-size-xl);
+}
+.ecobin,
+.icon21 {
+  position: relative;
+}
+.icon21 {
+  width: 73px;
+  height: 73px;
+  object-fit: cover;
+}
+.ecobin {
+  font-weight: 800;
+}
+.icon21Parent {
+  position: absolute;
+  top: 14px;
+  left: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 36px;
+  color: var(--color-seagreen);
+}
+.wasteManagementPana11 {
+  position: absolute;
+  top: 0;
+  right: 480px;
+  width: 520px;
+  height: 520px;
+  object-fit: cover;
+}
+.wasteManagementPana11Wrapper {
+  position: absolute;
+  top: 100px;
+  right: -380px;
+  width: 500px;
+  height: 520px;
+  transform: rotate(360deg);
+  transform-origin: 0 0;
+}
+.oliveTreePana1 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top:-45px;
+  object-fit: cover;
+}
+.registerNow {
+  position: absolute;
+  width: 80.95%;
+  top: 25%;
+  left: 9.52%;
+  display: inline-block;
+}
+.registerButton {
+  flex: 1;
+  position: relative;
+  top:-160px;
+  border-radius: 7px;
+  background-color: var(--color-seagreen);
+  font-size: var(--font-size-xl);
+  width: 216.13px;
+}
+.signInButton {
+  flex: 1;
+  position: absolute;
+  top:27px;
+  right:120px;
+  height: 52px ;
+  border-radius: 7px;
+  font-size: 14px;
+  color: black;
+  background-color: var(--color-seagreen);
+  width: 120px;
+}
+
+.oliveTreePana1Parent {
+  position: absolute;
+  width: 44.61%;
+  top: 293px;
+  right: 46.92%;
+  left: 8.47%;
+  height: 455px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 95px;
+}
+.revolutionizeYour {
+  margin: 0;
+}
+.waste {
+  color: var(--color-seagreen);
+}
+.span {
+  color: var(--color-black);
+}
+.wasteManagementSystem {
+  margin: 0;
+  color: var(--color-seagreen);
+}
+.revolutionizeYourWasteContainer {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 106px;
+  flex-shrink: 0;
+}
+.span1 {
+  color: #064635;
+}
+.withOurStateOfTheArt {
+  margin: 0;
+  color: #1e1e1e;
+}
+.doYouStruggleContainer {
+  align-self: stretch;
+  position: relative;
+  right: 40px;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+}
+.doYouStruggleContainer2 {
+  align-self: stretch;
+  position: relative;
+  width:90%;
+  right: -5px;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  line-height: 125%;
+  font-weight: 600;
+}
+.mainContentInner,
+.revolutionizeYourWasteManagParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.revolutionizeYourWasteManagParent {
+  align-self: stretch;
+  gap: 25px;
+}
+.mainContentInner {
+  position: absolute;
+  width: 46.83%;
+  top: 200px;
+  right: 44.29%;
+  left: 8.89%;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+}
+.mainContent {
+  position: absolute;
+  width: 100%;
+  top:0;
+  right: 0;
+  left: 0;
+  height: 4130px;
+  overflow: hidden;
+  text-align: left;
+}
+.aSolutionThat,
+.benefitsOfOurContainer {
+  align-self: stretch;
+  position: relative;
+  top:-100px;
+}
+.benefitsOfOurContainer1 {
+  align-self: stretch;
+  position: relative;
+  top:-330px;
+}
+.benefitsOfOurContainer2 {
+  align-self: stretch;
+  position: relative;
+  top:-480px;
+}
+.aSolutionThat {
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  font-weight: 600;
+  color: var(--color-black);
+}
+.benefitsOfOurWasteManagemeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-52xl);
+}
+.frameChild {
+  flex: 1;
+  width: 210px;
+}
+.frameParent {
+  position: absolute;
+  top: 239px;
+  left: calc(50% - 314px);
+  width: 628px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-52xl);
+  font-size: var(--font-size-21xl);
+  color: var(--color-seagreen);
+}
+.about2 {
+  position: absolute;
+  top: 16.67%;
+  left: 14.97%;
+}
+.component6,
+.component6Wrapper {
+  position: absolute;
+  width: 167px;
+  height: 60px;
+}
+.component6 {
+  top: 0;
+  left: calc(50% - 83.5px);
+  border-radius: var(--br-8xl);
+  background: linear-gradient(263.49deg, #519259, rgba(81, 146, 89, 0));
+  box-shadow: 0 8px 4px rgba(0, 0, 0, 0.25);
+}
+.component6Wrapper {
+  top: 57px;
+  left: calc(50% - 84px);
+}
+.saveTimeAnd {
+  align-self: stretch;
+  top:-150px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.saveTimeAnd1 {
+  align-self: stretch;
+  top:-380px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.saveTimeAnd2 {
+  align-self: stretch;
+  top:-520px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  line-height: 150%;
+  font-weight: 600;
+}
+.aboutInner {
+  position: absolute;
+  width: 26.94%;
+  top: 629px;
+  right: 64.31%;
+  left: 8.75%;
+  height: 577px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.recyclingBro1Icon {
+  position: relative;
+  width: 322px;
+  top:-230px;
+  height: 322px;
+  object-fit: cover;
+}
+.recyclingBro2Icon {
+  position: relative;
+  width: 322px;
+  top:-445px;
+  height: 322px;
+  object-fit: cover;
+}
+.recyclingBro3Icon {
+  position: relative;
+  width: 322px;
+  top:-645px;
+  height: 322px;
+  object-fit: cover;
+}
+.frameContainer,
+.frameDiv,
+.frameGroup {
+  position: absolute;
+  width: 26.94%;
+  top: 400px;
+  right: 36.74%;
+  left: 36.32%;
+  height: 577px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-52xl);
+}
+.frameContainer,
+.frameDiv {
+  right: 9.17%;
+  left: 63.89%;
+}
+.frameDiv {
+  top: 1331px;
+  right: 36.53%;
+  left: 36.53%;
+}
+.copyrightEcobin {
+  position: absolute;
+  bottom: 20px;
+  top:1300px; 
+  left: calc(50% - 337px);
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  width: 674.31px;
+}
+.about1 {
+  position: absolute;
+  width: 100%;
+  top: 1515px;
+  right: 8px;
+  left: -8px;
+  height: 1500px;
+  overflow: hidden;
+  font-size: var(--font-size-13xl);
+}
+.aSmarterWayContainer {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 100px;
+  flex-shrink: 0;
+}
+.registerButton1 {
+  position: absolute;
+  top: 30px;
+  left: calc(50% - 105px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-seagreen);
+  width: 210px;
+  height: 60px;
+}
+.knowMore {
+  position: absolute;
+  top: 45px;
+  left: 32.62px;
+  display: inline-block;
+  width: 166.75px;
+  height: 52.61px;
+}
+.registerButtonParent {
+  position: relative;
+  width: 210px;
+  height: 60px;
+}
+.frameParent1,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameWrapper {
+  flex: 1;
+  width: 210px;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.frameParent1 {
+  position: absolute;
+  height: 49%;
+  width: calc(100% - 747.88px);
+  top: 22.51%;
+  right: 35.96px;
+  bottom: 28.49%;
+  left: 711.91px;
+  justify-content: flex-start;
+  gap: var(--gap-52xl);
+  background-image: url(/public/frame-91@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.group11 {
+  position: absolute;
+  height: 69.9%;
+  width: calc(100% - 779px);
+  top: 7%;
+  right: 756px;
+  bottom: 15%;
+  left: 23px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.about4 {
+  position: absolute;
+  top: 16.67%;
+  left: 19.16%;
+}
+.component61 {
+  position: relative;
+  border-radius: var(--br-8xl);
+  background: linear-gradient(263.49deg, #519259, rgba(81, 146, 89, 0));
+  box-shadow: 0 8px 4px rgba(0, 0, 0, 0.25);
+  width: 167px;
+  height: 60px;
+}
+.component6Container {
+  position: absolute;
+  height: 5.7%;
+  top: 5.41%;
+  bottom: 88.89%;
+  left: calc(50% - 84px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-13xl);
+}
+.about3 {
+  position: absolute;
+  width: 100%;
+  top: 720px;
+  right: 0;
+  left: 0;
+  height: 1053px;
+  overflow: hidden;
+  font-size: var(--font-size-21xl);
+}
+.desktop2,
+.desktop21 {
+  position: absolute;
+  top: 0;
+  bottom:0;
+  left: 0;
+}
+.desktop21 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: #f4f9f4;
+  overflow: hidden;
+}
+.desktop2 {
+  width: 1440px;
+  height: 2900px;
+  left:70px;
+}
+.desktop {
+  position: relative;
+  width: 100%;
+  right : 70px;
+  height: 2900px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-sora);
+}
