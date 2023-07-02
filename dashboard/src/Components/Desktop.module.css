@@ -1,10 +1,12 @@
 body{
   overflow-x: hidden;
   overflow-y: scroll;
+  overflow-y: visible;
+  height : 100vh;
 }
-body::-webkit-scrollbar{
-  display:none;
-}
+/* body::-webkit-scrollbar{
+  display:hidden;
+} */
 .home {
   position: relative;
 }

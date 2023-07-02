@@ -2,8 +2,9 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Desktop.module.css";
 import Example from "./Popadmin";
-import { HashLink } from 'react-router-hash-link';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+//import { NavHashLink as Link } from 'react-router-hash-link';
+import {Link} from 'react-scroll'
+//import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import Button from "react-bootstrap/Button";
 import { truncatedNormal } from "@tensorflow/tfjs";
 
@@ -27,15 +28,49 @@ const Home = () => {
         <div className={styles.mainContent}>
           <div className={styles.navCentre}>
             <b className={styles.home}>
-             <HashLink smooth to="/#home" style={{color:'#519259'}}>
+             <Link 
+             to="home"
+             smooth={true}
+             offset={-70}
+             duration={1000}
+             style={{color:'#519259'}}>
              Home
-         </HashLink></b>
-            <b className={styles.home} ><HashLink smooth to="/#about" style={{color:'#519259'}}>
+         </Link></b>
+         {/* <b className={styles.home} style={{color:'#519259'}} onClick={() => {
+            navigate("/#home");
+          }} >Home</b> */}
+            <b className={styles.home} >
+            <Link 
+             to="about"
+         //    spy={true}
+             smooth={true}
+             offset={-70}
+             duration={1000}
+         //    activeClassName="selected"
+             style={{color:'#519259'}}>
              About
-         </HashLink></b>
-            <b className={styles.home}><HashLink smooth to="/#whyus" style={{color:'#519259'}}>
+         </Link> </b>
+         {/* <b className={styles.home} style={{color:'#519259'}} onClick={() => {
+            navigate("/#about");
+          }} >About</b> */}
+            {/* <b className={styles.home}><HashLink smooth to="/#whyus" style={{color:'#519259'}}>
              Why Us
-         </HashLink></b>
+         </HashLink></b> */}
+         <b className={styles.home} >
+            <Link 
+             to="whyus"
+          //   activeClass="active"
+           //  spy={true}
+             smooth={true}
+             offset={-70}
+             duration={1000}
+          //   activeClassName="selected"
+             style={{color:'#519259'}}>
+             Why Us
+         </Link></b>
+         {/* <b className={styles.home} style={{color:'#519259'}} onClick={() => {
+            navigate("/#whyus");
+          }} >Why Us</b> */}
          </div>
             <Example />
           <div className={styles.icon21Parent}>
