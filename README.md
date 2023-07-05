@@ -1,4 +1,4 @@
-t<h1>EcoBin</h1>
+<h1>EcoBin</h1>
 <img src = 'assets/logo.png' alt = 'image' ></img>
 <h1>A Novel and Sustainable way of Managing Waste powered by AI Models  
 <h1>What problem do we solve ?</h1>
