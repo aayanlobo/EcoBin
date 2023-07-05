@@ -34,7 +34,7 @@ _Note_: The installation steps assume you are using a Unix-like shell. If you ar
 2. [Clone](https://github.com/WittyhacksCR004/WH037_HackTheHustle/) your new fork of the repository from GitHub onto your local computer.
 
    ```
-   $ git clone https://github.com/WittyhacksCR004/WH037_HackTheHustle/
+   $ git clone [https://github.com/WittyhacksCR004/WH037_HackTheHustle/](https://github.com/aayanlobo/EcoBin)
    ```
 3. Navigate to frontend directory and implement the following commands :
 
