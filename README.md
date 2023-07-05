@@ -1,4 +1,4 @@
-<h1>EcoBin</h1>
+t<h1>EcoBin</h1>
 <img src = 'assets/logo.png' alt = 'image' ></img>
 <h1>A Novel and Sustainable way of Managing Waste powered by AI Models  
 <h1>What problem do we solve ?</h1>
@@ -62,6 +62,6 @@ _Note_: The installation steps assume you are using a Unix-like shell. If you ar
 
 
 # Showcase
-|     ![Segregation Result](assets/image.png)     |       ![Clustering Result](assets/calender.jpg)        |
+|     ![Home Page](assets/image.png)     |       ![Seggregation Result](assets/predict.jpg)        |
 | :--------------------------------------------------: | :-----------------------------------------------------: |
-| ![Recycled Products](assets/recycle.jpg) | ![Workflow](assets/workflow.jpeg) |
+| ![Recycled Products](assets/redeem_page.jpg) | ![Admin Page](assets/admin.jpg) |
