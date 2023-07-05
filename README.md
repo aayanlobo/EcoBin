@@ -62,6 +62,6 @@ _Note_: The installation steps assume you are using a Unix-like shell. If you ar
 
 
 # Showcase
-|     ![Segregation Result](assets/segres.jpg)     |       ![Clustering Result](assets/calender.jpg)        |
+|     ![Segregation Result](assets/image.png)     |       ![Clustering Result](assets/calender.jpg)        |
 | :--------------------------------------------------: | :-----------------------------------------------------: |
 | ![Recycled Products](assets/recycle.jpg) | ![Workflow](assets/workflow.jpeg) |
