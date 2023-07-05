@@ -56,9 +56,8 @@ _Note_: The installation steps assume you are using a Unix-like shell. If you ar
 
 # Links
 
-- [GitHub Repository](https://github.com/WittyhacksCR004/WH037_HackTheHustle/)
-- [Deployed Project](https://wastebin-six.vercel.app/)
-- [PPT](https://prezi.com/p/edit/3rovmk9bmdll/)
+- [GitHub Repository](https://github.com/aayanlobo/EcoBin))
+- [Deployed Project](https://eco-bin.vercel.app/)
 
 
 
