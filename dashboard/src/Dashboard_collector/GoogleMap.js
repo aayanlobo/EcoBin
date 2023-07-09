@@ -16,7 +16,8 @@ export default function GoogleMap() {
     // Important! Always set the container height explicitly
     <div style={{ height: "100vh", width: "100%" }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyCl7c070blKq16exEHYnmyaFVAEbRKzklY" }}
+        // bootstrapURLKeys={{ key: "AIzaSyCl7c070blKq16exEHYnmyaFVAEbRKzklY" }}
+        bootstrapURLKeys={{ key: "" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
         yesIWantToUseGoogleMapApiInternals
@@ -26,48 +27,3 @@ export default function GoogleMap() {
     </div>
   );
 }
-
-// export default function GoogleMap() {
-//   const defaultProps = {
-//     center: {
-//       lat: 10.99835602,
-//       lng: 77.01502627,
-//     },
-//     zoom: 11,
-//   };
-
-//   const AnyReactComponent = () => (
-//     <div
-//       style={{
-//         position: "relative",
-//         color: "white",
-//         backgroundColor: "red",
-//         padding: "5px",
-//         borderRadius: "50%",
-//         width: "50px",
-//         height: "50px",
-//         textAlign: "center",
-//       }}
-//     >
-//       Marker
-//     </div>
-//   );
-
-//   const markerLocation = {
-//     lat: 23.252319,
-//     lng: 77.431091,
-//   };
-
-//   return (
-//     // ...
-//     <GoogleMapReact
-//       bootstrapURLKeys={{ key: "YOUR_API_KEY" }}
-//       defaultCenter={defaultProps.center}
-//       defaultZoom={defaultProps.zoom}
-//       yesIWantToUseGoogleMapApiInternals
-//     >
-//       <Marker lat={markerLocation.lat} lng={markerLocation.lng} text="Marker" />
-//     </GoogleMapReact>
-//     // ...
-//   );
-// }
